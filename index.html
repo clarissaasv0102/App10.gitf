@@ -1,0 +1,1564 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <title>app10 Tutorial DAW </title>
+   <!--grupo CSS -->
+ <link rel="stylesheet" href="css/tema10.min.css" />
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+ <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <script src="phonegap.js"></script><!--necesario*/-->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/sut2.jpg','imagenes/sss2.jpg','imagenes/su2.jpg','imagenes/h2.gif','imagenes/yo2.png','imagenes/wampserver2.png')">
+ <!--principal-->
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-position="fixed" data-tap-toggle="false">
+  <h1>Desarrollo de Aplicaciones Web</h1>
+  </div>
+<div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>ÍNDICE</h1><div> <div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">        
+       <h2>Historia del HTML</h2>
+        </a>
+        </li>
+       <li class="ui-first-child ui-last-child">
+          <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>¿Qué es HTML?</h2>
+          </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>HTML5</h2>
+          </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Contenido de HTML5</h2>
+          </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>CSS</h2>
+          </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+        <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>DreamWeaver</h2>
+          </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+        <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Wamp</h2>
+          </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+        <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>JavaScript</h2>
+          </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+        <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>PHP</h2>
+          </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+        <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>MySQL</h2>
+          </a>
+         </li>
+     </ul>
+        </div>
+        </div>
+        </div>
+        <div align="justify">
+        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1.png" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/2.png" alt="2" title="2" id="wows1_1"/></li>
+		<li><img src="data1/images/3.png" alt="3" title="3" id="wows1_2"/></li>
+		<li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+		<li><img src="data1/images/5.jpg" alt="5" title="5" id="wows1_4"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/6.png" alt="http://wowslider.net/" title="6" id="wows1_5"/></a></li>
+		<li><img src="data1/images/7.png" alt="7" title="7" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.png" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.png" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/3.png" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/6.png" alt="6"/>6</span></a>
+		<a href="#" title="7"><span><img src="data1/tooltips/7.png" alt="7"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section --> </div>
+<ul data-role="controlgroup" data-type="horizontal" data-theme="a" lang="af">
+<div style="width:10%;">
+ <li class="ui-first-child ui-last-child  ui-table-columntoggle-popup">
+  <a href="https://wiboomedia.com/que-son-las-aplicaciones-web-ventajas-y-tipos-de-desarrollo-web/" data-role="button" id="come">
+  <p> Más info.</p>
+  </a>
+  </li>
+  </ul>
+  </div>
+   <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>imagenes acerca de:</h1><div> <div class="ui-table-columntoggle-popup"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('s1','','imagenes/sut2.jpg',1)"><img src="imagenes/sust1.jpeg" width="20%" height="20%" id="s1"></a> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('bu','','imagenes/sss2.jpg',1)"><img src="imagenes/sss.jpg" width="20%" height="20%" id="bu"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('va','','imagenes/su2.jpg',1)"><img src="imagenes/su.png" width="19%" height="19%" id="va"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ja','','imagenes/h2.gif',1)"><img src="imagenes/h.gif" width="20%" height="20%" id="ja"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('yoo','','imagenes/yo2.png',1)"><img src="imagenes/yo.png" width="18%" height="18%" id="yoo"></a></div></div>
+   </div>
+   </div>
+   <div data-role="main" class="ui-content" align="center">
+<div style="width:70%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ <li class="ui-first-child ui-last-child">
+  <a href="#" data-role="button" id="come">
+  <h2>Datos del autor</h2>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div></div>
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1> Desde el comienzo..</h1>
+          </div>
+          <div data-role="content" align="center">
+          <h2>Creador del HTML</h2> <p>El <strong>origen del lenguaje HTML</strong> se remonta al físico <strong>Tim Berners-Lee</strong>, un trabajador del CERN (Organización Europea para la Investigación Nuclear) quien a finales de 1989 propuso el lenguaje HTML junto con el protocolo HTTP, cuya finalidad era crear un medio para poder compartir información entre diversos "grandes"físicos de la época que trabajaban por todo el mundo.</p> <h2>Orígenes del HTML</h2> <p>El primer documento que se publicó de manera formal, sobre la <strong>estructura del HTML</strong> se publicó en el año de 1991 con el nombre de: "<strong>HTML Tags</strong>", simplemente texto en donde se explican las etiquetas que se usan en HTML. Este documento aun se encuentra disponible para su consulta en la web: <a href="http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html" target="_blank">HTML Tags</a>.</p> <p>Tal y como explica el documento, en HTML se utilizan etiquetas de apertura y de cierre (solo en algunas excepciones no) en donde se abre con los corchetes angulares y se cierra de igual manera con los corchetes pero anteponiendo un  (/).</p> <p>Es decir: &lt;Title&gt;&lt;/Title&gt;</p> <h3>Versiones de HTML</h3> <p>El primero en salir fue el HTML 1, sin embargo no fue considerado un estándar, por lo que muchas veces se considera al HTML 2 como la primera versión del HTML.</p> <p><strong>HTML</strong> <strong>2: </strong>Presentado en el año de 1995, el HTML 2 es considerado la<strong> primera versión del HTML</strong>, el cual no soportaba tablas y donde la declaración explícita de los elementos body, html y head es opcional.</p> <p><strong>HTML 3.2</strong>: Esta versión se lanzó en el año de 1997 gracias al organismo de estandarización llamado W3C (World Wide Web Consortium). El cual incorporó los últimos avances de las páginas web como applets de Java y texto que fluye alrededor de las imágenes.</p> <p><strong>HTML 4.0</strong>: Lanzada en 1998. Entre sus novedades más destacadas se encuentran las hojas de estilos CSS, la posibilidad de incluir pequeños programas o scripts en las páginas web, mejora de la accesibilidad de las páginas diseñadas, tablas complejas y mejoras en los formularios.</p> <p><strong>HTML 4.01</strong>: salió a la luz en 1999 como una revisión y actualización de la versión HTML 4.0, por lo que no incluye novedades significativas.</p> <p><strong>HTML 5</strong>: quinta revisión importante del lenguaje básico de la World Wide Web,  el cual especifica dos variantes de sintaxis para HTML: el clásico HTML (text/html), y la variante conocida como HTML5 y una variante <strong>XHTML</strong> conocida como sintaxis XHTML5. Este nuevo estándar aun no es tan utilizado pero su potencial es mucho mayor a las versiones anteriores, el cual incluye interesantes mejoras como nuevos elementos y etiquetas.</p><img src="imagenes/versiones.jpeg" width="70%" height="70%">
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div>
+    </div>
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1> ¿Qué es HTML?</h1>
+          </div>
+          <div data-role="content" align="center">
+          <img src="imagenes/siglas.jpg" width=30% height="30%">
+          <p>HTML significa "Lenguaje de Marcado de Hypertexto" por sus siglas en ingles "HyperText Markup Language", es un lenguaje que pertenece a la familia de los "lenguajes de marcado" y es utilizado para la elaboración de páginas web. El estándar HTML lo define la W3C (World Wide Web Consortium) y actualmente HTML se encuentra en su versión HTML5.
+Cabe destacar que HTML no es un lenguaje de programación ya que no cuenta con funciones aritméticas, variables o estructuras de control propias de los lenguajes de programación, por lo que HTML genera únicamente páginas web estáticas, sin embargo, HTML se puede usar en conjunto con diversos lenguajes de programación para la creación de páginas web dinámicas.
+<h3>¿Para que sirve HTML?</h3>
+Básicamente el lenguaje HTML sirve para describir la estructura básica de una página y organizar la forma en que se mostrará su contenido, además de que HTML permite incluir enlaces (links) hacia otras páginas o documentos.
+HTML es un lenguaje de marcado descriptivo que se escribe en forma de etiquetas para definir la estructura de una página web y su contenido como texto, imágenes, entre otros, de modo que HTML es el encargado de describir (hasta cierto punto) la apariencia que tendrá la página web. 
+<h3>¿Que es un documento HTML?</h3>
+Para desarrollar una página web en HTML es necesario crear un documento HTML. Básicamente un documento HTML es un archivo de texto que tienen la extensión .html o .htm, en este documento se escriben todo el texto y las etiquetas HTML necesarias para la creación de una página, al texto escrito en el documento HTML se le llama código HTML. Un documento HTML se puede generar con cualquier editor de textos simple como el bloc de notas de Windows o Gedit de Linux. <h3>¿Que son las etiquetas HTML?</h3>
+Las etiquetas HTML son fragmentos de texto rodeados por corchetes angulares < >, que se utilizan para escribir código HTML, en HTML existen etiquetas de apertura y etiquetas de cierre, tienen la forma: <etiqueta> </etiqueta>. Donde <etiqueta> es la etiqueta de apertura y </etiqueta> es la etiqueta de cierre indicada por la diagonal. HTML tiene definidas gran variedad de etiquetas para distintos usos.</p> <h2> HTML(etiquetas)</h2><p>El código en HTML está formado por un conjunto  de etiquetas (tags).
+El navegador interpreta estas etiquetas al momento de cargar la página.</p></div><div align="center">  <h2>Etiquetas HTML 5.2</h2>
+   <table width="600" border="1">
+  <tr>
+    <td><section id="html-etiquetas" class="ui-table-columntoggle">
+    <table class="mcl-listado mcl-franjas">
+      <col class="propiedad" />
+      <col class="descripcion" />
+      <col />
+      <tbody id="html-raiz">
+        <tr class="titulo">
+          <td colspan="3">Elemento raíz</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-metadatos.html#etiqueta-html">html</a></td>
+          <td>engloba todo el documento</td>
+          <td>lang</td>
+        </tr>
+      </tbody>
+      <tbody id="html-metadatos">
+        <tr class="titulo">
+          <td colspan="3">Metadatos </td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-metadatos.html#etiqueta-head">head</a></td>
+          <td>delimita el encabezado del documento</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-metadatos.html#etiqueta-title">title</a></td>
+          <td>título del documento (se muestra en la pestaña del navegador)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-metadatos.html#etiqueta-base">base /</a></td>
+          <td>URI base para direcciones relativas</td>
+          <td>href, target</td>
+        </tr>
+        <tr>
+          <td><a href="html-metadatos.html#etiqueta-link">link /</a></td>
+          <td>enlace a otros archivos (hoja de estilo, etc.)</td>
+          <td>href, rel, media, type, title</td>
+        </tr>
+        <tr>
+          <td><a href="html-metadatos.html#etiqueta-meta">meta /</a></td>
+          <td>metainformación sobre el documento</td>
+          <td>name, content, charset</td>
+        </tr>
+        <tr>
+          <td><a href="html-metadatos.html#etiqueta-style">style</a></td>
+          <td>hoja de estilo incluida en el documento</td>
+          <td>type, title</td>
+        </tr>
+      </tbody>
+      <tbody id="html-secciones">
+        <tr class="titulo">
+          <td colspan="3">Secciones</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-secciones.html#etiqueta-body">body</a></td>
+          <td>delimita el cuerpo del documento</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-secciones.html#etiqueta-article">article</a></td>
+          <td>artículo</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-secciones.html#etiqueta-section">section</a></td>
+          <td>sección</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-secciones.html#etiqueta-nav">nav</a></td>
+          <td>navegación</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-secciones.html#etiqueta-aside">aside</a></td>
+          <td>lateral</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-secciones.html#etiqueta-hn">h1 a h6</a></td>
+          <td>encabezado (de nivel 1 a 6)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-secciones.html#etiqueta-header">header</a></td>
+          <td>cabecera</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-secciones.html#etiqueta-footer">footer</a></td>
+          <td>pie</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-secciones.html#etiqueta-address">address</a></td>
+          <td>dirección (información sobre el autor)</td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tbody id="html-contenido">
+        <tr class="titulo">
+          <td colspan="3">Contenido (bloques)</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-bloques.html#etiqueta-p">p</a></td>
+          <td>párrafo</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-bloques.html#etiqueta-hr">hr /</a></td>
+          <td>separador</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-divisiones.html">div</a></td>
+          <td>división</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-bloques.html#etiqueta-blockquote">blockquote</a></td>
+          <td>cita larga (que incluye varios párrafos)</td>
+          <td>cite</td>
+        </tr>
+        <tr>
+          <td><a href="html-bloques.html#etiqueta-pre">pre</a></td>
+          <td>texto preformateado</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-bloques.html#etiqueta-main">main</a></td>
+          <td>principal</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-bloques.html#etiqueta-figure">figure</a></td>
+          <td>ilustración</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-bloques.html#etiqueta-figcaption">figcaption</a></td>
+          <td>pie de ilustración</td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tbody id="html-texto">
+        <tr class="titulo">
+          <td colspan="3">Texto (en línea)</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-br">br /</a></td>
+          <td>salto de línea</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-wbr">wbr</a></td>
+          <td>posible salto de línea</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-enlaces.html">a</a></td>
+          <td>hiperenlace</td>
+          <td>href, target, download, rel, type</td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-span">span</a></td>
+          <td>contenedor de texto genérico</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-strong">strong</a></td>
+          <td>importante</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-em">em</a></td>
+          <td>énfasis</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-sub">sub</a></td>
+          <td>subíndice</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-sup">sup</a></td>
+          <td>superíndice</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-abbr">abbr</a></td>
+          <td>abreviatura</td>
+          <td>title</td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-b">b</a></td>
+          <td>atención</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-cite">cite</a></td>
+          <td>obra</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-data">data</a></td>
+          <td>datos</td>
+          <td>value</td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-dfn">dfn</a></td>
+          <td>definición</td>
+          <td>title</td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-kbd">kbd</a></td>
+          <td>teclado</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-i">i</a></td>
+          <td>tecnicismo</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-mark">mark</a></td>
+          <td>resaltado añadido posteriormente, no en el original</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-q">q</a></td>
+          <td>cita </td>
+          <td>cite</td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-s">s</a></td>
+          <td>incorrecto</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-small">small</a></td>
+          <td>comentario</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-texto.html#etiqueta-time">time</a></td>
+          <td>fecha y hora</td>
+          <td>datetime</td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-u">u</a></td>
+          <td>sonido inarticulado</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-code">code</a></td>
+          <td>código (de programa de ordenador)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-samp">samp</a></td>
+          <td>salida (de programa de ordenador)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-var">var</a></td>
+          <td>variable (de programa de ordenador)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-bdo">bdo</a></td>
+          <td>dirección de escritura</td>
+          <td>dir</td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-bdi">bdi</a></td>
+          <td>ignorar dirección de escritura</td>
+          <td>dir</td>
+        </tr>
+      </tbody>
+      <tbody id="html-modificacion">
+        <tr class="titulo">
+          <td colspan="3">Modificaciones</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-modificaciones.html#etiqueta-ins">ins</a></td>
+          <td>texto insertado</td>
+          <td>cite, datetime</td>
+        </tr>
+        <tr>
+          <td><a href="html-modificaciones.html#etiqueta-del">del</a></td>
+          <td>texto borrado</td>
+          <td>cite, datetime</td>
+        </tr>
+      </tbody>
+      <tbody id="html-incrustado">
+        <tr class="titulo">
+          <td colspan="3">Contenido incrustado</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td>picture <sup>(5.1)</sup></td>
+          <td>imagen múltiple para diferentes resoluciones o densidades</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-imagenes.html#img-img">img /</a></td>
+          <td>imagen</td>
+          <td>alt, src, usemap, ismap, width, height</td>
+        </tr>
+        <tr>
+          <td><a href="html-objetos.html#iframe">iframe</a></td>
+          <td>marco incrustado en el documento</td>
+          <td>src, srcdoc, name, sandbox, width, height</td>
+        </tr>
+        <tr>
+          <td>embed</td>
+          <td></td>
+          <td>src, type, width, height</td>
+        </tr>
+        <tr>
+          <td><a href="html-objetos.html#object-param">object</a></td>
+          <td>objeto</td>
+          <td>data, type, width, height</td>
+        </tr>
+        <tr>
+          <td><a href="html-objetos.html#object-param">param /</a></td>
+          <td>parametro para &lt;objeto&gt;</td>
+          <td>name, value</td>
+        </tr>
+        <tr>
+          <td>video</td>
+          <td></td>
+          <td>src, poster, preload, autoplay, loop, muted, controls, width, height
+          </td>
+        </tr>
+        <tr>
+          <td>audio</td>
+          <td></td>
+          <td>src, preload, autoplay, loop, muted, controls</td>
+        </tr>
+        <tr>
+          <td>source</td>
+          <td>origen de &lt;img&gt;, &lt;audio&gt; o &lt;video&gt;</td>
+          <td>src, type</td>
+        </tr>
+        <tr>
+          <td>track</td>
+          <td></td>
+
+          <td>kind, src, srclang, label, default</td>
+        </tr>
+        <tr>
+          <td>map</td>
+          <td>mapa de imagen</td>
+          <td>name</td>
+        </tr>
+        <tr>
+          <td>area /</td>
+          <td>área en mapa de imagen</td>
+          <td>alt, coords, href, hreflang, rel, shape, target, type</td>
+        </tr>
+      </tbody>
+      <tbody id="html-listas">
+        <tr class="titulo">
+          <td colspan="3">Listas</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-listas.html#listas-ordenadas-no-ordenadas">ol</a></td>
+          <td>lista ordenada</td>
+          <td>reversed, start, type</td>
+        </tr>
+        <tr>
+          <td><a href="html-listas.html#listas-ordenadas-no-ordenadas">ul</a></td>
+          <td>lista no ordenada</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-listas.html#listas-ordenadas-no-ordenadas">li</a></td>
+          <td>elemento de lista (ordenada o no ordenada)</td>
+          <td>value</td>
+        </tr>
+        <tr>
+          <td><a href="html-listas.html#listas-definicion">dl</a></td>
+          <td>lista de definición</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-listas.html#listas-definicion">dt</a></td>
+          <td>término en lista de definición</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-listas.html#listas-definicion">dd</a></td>
+          <td>definición en lista de definición</td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tbody id="html-tablas">
+        <tr class="titulo">
+          <td colspan="3">Tablas</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-tablas.html#tablas-estructura">table</a></td>
+          <td>tabla</td>
+          <td>border</td>
+        </tr>
+        <tr>
+          <td><a href="html-tablas.html#tablas-leyenda">caption</a></td>
+          <td>leyenda de tabla</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-tablas.html#tablas-columnas">colgroup</a></td>
+          <td>grupo de columnas</td>
+          <td>span</td>
+        </tr>
+        <tr>
+          <td><a href="html-tablas.html#tablas-tbody">tbody</a></td>
+          <td>cuerpo de tabla (grupo de filas)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-tablas.html#tablas-tbody">thead</a></td>
+          <td>cabecera de tabla (grupo de filas)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-tablas.html#tablas-tbody">tfoot</a></td>
+          <td>pie de tabla (grupo de filas)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-tablas.html#tablas-filas">tr</a></td>
+          <td>fila</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-tablas.html#tablas-celdas">td</a></td>
+          <td>celda</td>
+          <td>colspan, rowspan, headers</td>
+        </tr>
+        <tr>
+          <td><a href="html-tablas.html#tablas-celdas">th</a></td>
+          <td>celda de cabecera</td>
+          <td>colspan, rowspan, headers, scope, abbr</td>
+        </tr>
+        <tr>
+          <td><a href="html-tablas.html#tablas-columnas">col</a></td>
+          <td>columna</td>
+          <td>span</td>
+        </tr>
+      </tbody>
+      <tbody id="html-formularios">
+        <tr class="titulo">
+          <td colspan="3">Formularios</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-formularios.html#formulario-form">form</a></td>
+          <td>formulario</td>
+          <td>accept-charset, action, autocomplete, enctype, method, target</td>
+        </tr>
+        <tr>
+          <td><a href="html-formularios.html#label">label</a></td>
+          <td>etiqueta de un control</td>
+          <td>form, for</td>
+        </tr>
+        <tr>
+          <td><a href="html-formularios.html">input /</a></td>
+          <td>control (hay varios tipos)</td>
+          <td>type
+            (<a href="html-formularios.html#control-input-submit-reset">submit</a>,
+            <a href="html-formularios.html#control-input-submit-reset">reset</a>, button,
+            <a href="html-formularios.html#control-input-text">text</a>,
+            <a href="html-formularios.html#control-input-password">password</a>,
+            <a href="html-formularios.html#control-input-number">number</a>,
+            <a href="html-formularios.html#control-input-search">search</a>,
+            <a href="html-formularios.html#control-input-tel">tel</a>,
+            <a href="html-formularios.html#control-input-url">url</a>,
+            <a href="html-formularios.html#control-input-email">email</a>,
+            <a href="html-formularios.html#control-input-date">date</a>,
+            <a href="html-formularios.html#control-input-time">time</a>,
+            <a href="html-formularios.html#control-input-color">color</a>,
+            <a href="html-formularios.html#control-input-range">range</a>,
+            <a href="html-formularios.html#control-input-file">file</a>,
+            <a href="html-formularios.html#control-input-image">image</a>,
+            <a href="html-formularios.html#control-input-hidden">hidden</a>, etc.), name, value, checked, selected, width, height, size, maxlength, ...</td>
+        </tr>
+        <tr>
+          <td><a href="html-formularios.html#control-button-submit-reset">button</a></td>
+          <td>botón</td>
+          <td>name, type, value, form</td>
+        </tr>
+        <tr>
+          <td><a href="html-formularios.html#control-select">select</a></td>
+          <td>caja de lista</td>
+          <td>name, multiple, size, ...</td>
+        </tr>
+        <tr>
+          <td>datalist</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-formularios.html#control-select">optgroup</a></td>
+          <td>grupo de opciones en una caja de lista</td>
+          <td>label</td>
+        </tr>
+        <tr>
+          <td><a href="html-formularios.html#control-select">option</a></td>
+          <td>opción de caja de lista</td>
+          <td>label, selected, value</td>
+        </tr>
+        <tr>
+          <td><a href="html-formularios.html#control-textarea">textarea</a></td>
+          <td>área de texto</td>
+          <td>name, cols, rows, ...</td>
+        </tr>
+        <tr>
+          <td>output</td>
+          <td>cálculo</td>
+          <td>name, for</td>
+        </tr>
+        <tr>
+          <td>progress</td>
+          <td>barra de progreso</td>
+          <td>value, max</td>
+        </tr>
+        <tr>
+          <td>meter</td>
+          <td>indicador</td>
+          <td>value, min, max, low, high, optimum</td>
+        </tr>
+        <tr>
+          <td><a href="html-formularios.html#fieldset">fieldset</a></td>
+          <td>grupo de controles</td>
+          <td>name, disabled</td>
+        </tr>
+        <tr>
+          <td><a href="html-formularios.html#fieldset">legend</a></td>
+          <td>leyenda de grupo de controles</td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tbody id="html-interactivos">
+        <tr class="titulo">
+          <td colspan="3">Interactivos</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-interactivos.html#etiqueta-details">details</a> <sup>(5.1)</sup></td>
+          <td>desplegable</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-interactivos.html#etiqueta-summary">summary</a> <sup>(5.1)</sup></td>
+          <td>leyenda para &lt;details&gt;</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>dialog (<sup>5.2</sup>)</td>
+            <td>cuadro de diálogo de una aplicación</td>
+            <td></td>
+        </tr>
+      </tbody>
+      <tbody id="html-scripts">
+        <tr class="titulo">
+          <td colspan="3">Scripts</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td>script</td>
+          <td>script</td>
+          <td>src, type, charset, async, defer</td>
+        </tr>
+        <tr>
+          <td>noscript</td>
+          <td>contenido a mostrar en navegadores que no admiten &lt;script&gt;</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>template</td>
+          <td>plantillas utilizables por scripts</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>canvas</td>
+          <td>zona de dibujo utilizable por script</td>
+          <td>width, height</td>
+        </tr>
+      </tbody>
+      <tbody id="html-ruby">
+        <tr class="titulo">
+          <td colspan="3">Notación Ruby</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-ruby">ruby</a></td>
+          <td>notación ruby</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-rb">rb</a></td>
+          <td>elemento de notación ruby (base)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-rt">rt</a></td>
+          <td>elemento de notación ruby (texto)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-rtc">rtc</a></td>
+          <td>elemento de notación ruby (contenedor)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-otros.html#etiqueta-rp">rp</a></td>
+          <td>elemento de notación ruby (paréntesis)</td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tbody id="html-otros">
+        <tr class="titulo">
+          <td colspan="3">Otros</td>
+        </tr>
+        <tr class="cabecera">
+          <td>Etiqueta</td>
+          <td>Descripción</td>
+          <td>Atributos principales</td>
+        </tr>
+        <tr>
+          <td><a href="html-metadatos.html#doctype">!DOCTYPE</a></td>
+          <td>tipo de documento (versión de html empleada)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="html-que-es.html#html-comentarios">&lt;!-- ... --&gt;</a></td>
+          <td>comentario (sólo visible en el código fuente) </td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tbody id="html-eliminadas">
+          <tr class="titulo">
+            <td colspan="3">Etiquetas eliminadas</td>
+          </tr>
+          <tr class="cabecera">
+            <td>Etiqueta</td>
+            <td>Descripción</td>
+            <td>Atributos principales</td>
+          </tr>
+          <tr>
+            <td>keygen</td>
+            <td>generador de pares de claves</td>
+            <td>Eliminada en HTML 5.2</td>
+          </tr>
+          <tr>
+            <td>menu <sup>(5.1)</sup></td>
+            <td>menú de comandos</td>
+            <td>Añadida en HTML 5.1. Eliminada en HTML 5.2. <a href="https://github.com/whatwg/html/commit/e7e8c88ecdd7cdc96171f05ab6fe23b56dd48d8a">Eliminada por el WHATWG</a> en junio de 2017.</td>
+          </tr>
+          <tr>
+            <td>menuitem <sup>(5.1)</sup></td>
+            <td>elemento de &lt;menu&gt;</td>
+            <td>Añadida en HTML 5.1. Eliminada en HTML 5.2. <a href="https://github.com/whatwg/html/commit/e7e8c88ecdd7cdc96171f05ab6fe23b56dd48d8a">Eliminada por el WHATWG</a> en junio de 2017.</td>
+          </tr>
+        </tbody>
+      </table></td>
+  </tr>
+</table>
+  </section></div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+   <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Lista de Elementos HTML5</h1>
+          </div>
+          <div data-role="content" align="center">
+          <p>Todos los <strong>elementos del estandar HTML5</strong> están listados aquí, descritos por su etiqueta de apertura y agrupados por su función. Contrariamente al <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" title="HTML/Element">indice de elementos HTML</a> el cual lista todas las posibles etiquetas, estandar, no-estandar, válidas, obsoletas o aquellas en desuso, esta lista solamente los elementos válidos de HTML5. Solamente aquellos elementos listados aquí son los que deberían ser usados en nuevos sitios Web.</p>
+
+<p>El simbolo <a href="imagenes/HTML5_Badge_32.png"><img src="imagenes/HTML5_Badge_32.png" style="height: 16px; vertical-align: middle; width: 16px;"></a> indica que el elemento fue añadido en HTML5. Nótese que otros elementos listados aqui pueden haber sido modificados o extendido en su significado por la especificación HTML5.</p> 
+<h1>Lista de elementos HTML ordenados en base a su función:</h1>
+<h2> Básico:</h2>
+<table width="40%" border="1">
+  <tr>
+    <th scope="col">Etiqueta</th>
+    <th scope="col">Descripción</th>
+  </tr>
+  <tr>
+    <td>&lt;!-- ... --&gt;</td>
+    <td>Define un comentario. Cualquier información que se ponga dentro de las etiquetas &lt;!-- ... --&gt; dentro del cuerpo de la página, será ignorados por el navegador.</td>
+  </tr>
+  <tr>
+    <td>&lt;!DOCTYPE&gt;</td>
+    <td>Define el tipo de documento;</td>
+  </tr>
+  <tr>
+    <td>&lt;title&gt;</td>
+    <td>Define el título de un documento</td>
+  </tr>
+  <tr>
+    <td>&lt;html&gt;</td>
+    <td>Define la raiz de un documento HTML</td>
+  </tr>
+  <tr>
+    <td>&lt;body&gt;</td>
+    <td>Este elemento es utilizado para definir el cuerpo del documento.</td>
+  </tr>
+  <tr>
+    <td>&lt;h1--h6&gt;</td>
+    <td>Define encabezados en HTML</td>
+  </tr>
+  <tr>
+    <td>&lt;p&gt;</td>
+    <td>Especifica un párrafo</td>
+  </tr>
+  <tr>
+    <td>&lt;br&gt;</td>
+    <td>Define un salto de línea</td>
+  </tr>
+  <tr>
+    <td>&lt;hr&gt;</td>
+    <td>Define un cambio temático en el contenido</td>
+  </tr>
+</table>
+<h2>Secciones/Estilo:</h2>
+<table width="50%%" border="1">
+  <tr>
+    <th scope="col">Etiqueta</th>
+    <th scope="col">Descripción</th>
+  </tr>
+  <tr>
+    <td>&lt;style&gt;</td>
+    <td>Este elemento define el estilo del documento</td>
+  </tr>
+  <tr>
+    <td>&lt;div&gt;</td>
+    <td>Define una sección en un documento.</td>
+  </tr>
+  <tr>
+    <td>&lt;span&gt;</td>
+    <td>Agrupa varios elementos en línea seguidos dentro de un mismo bloque, para después darles formato con la hoja de estilo.</td>
+  </tr>
+  <tr>
+    <td>&lt;header&gt;</td>
+    <td>Define un encabezado para un documento o sección</td>
+  </tr>
+  <tr>
+    <td>&lt;footer&gt;</td>
+    <td>Define un footer para un documento o sección.</td>
+  </tr>
+  <tr>
+    <td>&lt;section&gt;</td>
+    <td>Define una sección en un documento</td>
+  </tr>
+  <tr>
+    <td>&lt;articicle&gt;</td>
+    <td>Define una composición independiente dentro de un documento, página, aplicación o web, que puede ser distribuida independientemente o reutilizada.</td>
+  </tr>
+  <tr>
+    <td>&lt;aside&gt;</td>
+    <td>Define contenido secundario al contenido de la página.</td>
+  </tr>
+  <tr>
+    <td>&lt;details&gt;</td>
+    <td>Define detalles adicionales que el usuario puede ver o esconder.</td>
+  </tr>
+  <tr>
+    <td>&lt;dialog&gt;</td>
+    <td>Define una caja de diálogo o ventana.</td>
+  </tr> 
+  <tr>
+    <td>&lt;summary&gt;</td>
+    <td>Define un encabezado para el elemento &lt;details&gt;</td>
+  </tr>
+</table>
+
+  <h2>Información Meta:</h2>
+  <table width="55%%" border="1">
+  <tr>
+    <th scope="col">Etiqueta</th>
+    <th scope="col">Descripción</th>
+  </tr>
+  <tr>
+    <td>&lt;head&gt;</td>
+    <td>Define información sobre el documento</td>
+  </tr>
+  <tr>
+    <td>&lt;meta&gt;</td>
+    <td>Define metadata de un documento HTML</td>
+  </tr>
+  <tr>
+    <td>&lt;base&gt;</td>
+    <td>Define cuál es la URL absoluta para todos aquellos enlaces que sean relativos en la página</td>
+  </tr>
+  <tr>
+    <td>&lt;basefont&gt;</td>
+    <td>Especifica un color, tamaño y fuente por defecto, para todo el texto del documento. No soportado en HTML5. Declarado en desuso en HTML 4.01</td>
+  </tr>
+</table>
+<div align="center">
+<img src="imagenes/untitled.jpg" alt="cuadrito" width="687" height="339"></div>
+<ul data-role="controlgroup" data-type="horizontal" data-theme="a" lang="af">
+<div style="width:10%;">
+ <li class="ui-first-child ui-last-child  ui-table-columntoggle-popup">
+  <a href="http://www.edu4java.com/es/web/html-elementos-funcion.html" data-role="button" id="cua">
+  <p>continuar..</p>
+  </a>
+  </li>
+  </ul>
+  </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Contenido de HTML5</h1>
+          </div>
+      <div data-role="content" align="center">
+          <img src="imagenes/yoyo.jpg" alt="hola" width="873" height="437"></div>
+          <div align="center">
+          <h2>Conectividad</h2><img src="imagenes/ko.png" alt="ggggg" width="336" height="336">
+          <ul>
+          <li>Web Sockets</li>
+ <li>Servidor coloca datos en cliente</li>
+<li> WebRTC (Real Time  Communications</li>
+</ul>
+<h2>Desconectado y Almacenamiento</h2>
+<ul>
+<li>IndexedDB</li>
+<li>Uso archivos desde  aplicaciones Web</li>
+<li>Uso de la Caché</li>
+</ul><img src="imagenes/cir.png" alt="bb" width="294" height="294">
+<h2>Multimedia</h2><img src="imagenes/cvd.png" alt="do" width="314" height="314">
+<ul>
+<li>API de cámara</li>
+<li>Subtítulos</li>
+<li>Elementos de Audio y Video</li>
+</ul>
+<h2>3D, Gráficos y Efectos</h2>
+<ul>
+<li>WebGL - Canvas</li>
+<li>API de texto para Canvas</li>
+<li>SVG (Scalable Vector Graphics)</li>
+</ul><img src="imagenes/cua.png" alt="fo" width="362" height="362">
+<h2>CSS3 Styling</h2><img src="imagenes/lolo.png" alt="c" width="390" height="390">
+<ul>
+<li> Bordes</li>
+<li>Animación</li>
+<li>Tipografía</li>
+<li>Responsive Design</li>
+<li>Fondos</li>
+</ul>
+<h2>Acceso al Dispositivo</h2>
+<img src="imagenes/ra.jpg" alt="k" width="371" height="370">
+<ul>
+<li>Eventos táctiles</li>
+<li>Geolocalización</li>
+<li>Detección de orientación  del dispositivo</li>
+<li>API Pointer Lock</li>
+</ul>
+<h2> Rendimiento</h2>
+<ul>
+<li>Web Workers</li>
+<li>XMLHttpRequest (Nivel 2)</li>
+<li>API Historial</li>
+<li>API Drag and Drop</li>
+<li>API Fullscreen</li>
+</ul><img src="imagenes/lo.jpg" alt="ju" width="374" height="374">
+<h2>Partes de un Formulario en HTML5</h2>
+<table width="30%" border="1">
+  <tr>
+    <td>Además del elemento input, existen otros  dos elementos importantes los cuales son
+</td>
+  </tr>
+  <tr>
+    <td>&lt;select&gt;&lt;/select&gt; el cual lleva elementos</td>
+  </tr>
+  <tr>
+    <td>&lt;option&gt;&lt; /option&gt; adentro.</td>
+  </tr>
+</table>
+<h2>Atributos de Input en HTML5</h2><img src="imagenes/h1.png" alt="mi" width="243" height="65"><img src="imagenes/conte.jpg" alt="mi" width="672" height="44">
+<img src="imagenes/h3.jpg" alt="mi" width="261" height="65"><img src="imagenes/yu.jpg" alt="mi" width="671" height="44"><img src="imagenes/yy.jpg" alt="mi" width="197" height="64"><img src="imagenes/mm.jpg" alt="mi" width="671" height="76"><img src="imagenes/oo.jpg" alt="mi" width="187" height="65"><img src="imagenes/llll.jpg" alt=",i" width="671" height="44">
+<h3>Ejemplos:</h3>
+ <div><div data-role="main" class="ui-content" align="center">
+<div style="width:50%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ <li class="ui-first-child ui-last-child">
+  <a href="Ejercicio01.html" target="_self" data-role="button">
+  <p>Ejercicio1</p>
+  </a>
+  </li>
+  </ul>
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ <li class="ui-first-child ui-last-child">
+  <a href="Ejemplo02.html" target="_self" data-role="button">
+  <p>Ejercicio2</p>
+  </a>
+  </li>
+  </ul>
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ <li class="ui-first-child ui-last-child">
+  <a href="Ejercicio03/Ejercicio03.html" target="_self" data-role="button">
+  <p>Ejercicio3</p>
+  </a>
+  </li>
+  </ul>
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ <li class="ui-first-child ui-last-child">
+  <a href="Ejercicio4.html" target="_self" data-role="button">
+  <p>Ejercicio4</p>
+  </a>
+  </li>
+  </ul>
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ <li class="ui-first-child ui-last-child">
+  <a href="Ejercicio05/index.html"  target="_self" data-role="button">
+  <p>Ejercicio5</p>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </div>
+</div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>¿Qué es CSS?</h1>
+          </div>
+          <div data-role="content" align="center">
+<table width="55%%" border="1">
+<tr>
+    <td>Como ya hemos mencionado, CSS es un lenguaje que se usa para diseñar la forma de presentar los documentos a los usuarios — su estilo, diseño, etc.
+
+Un documento suele ser un archivo de texto estructurado usando un Lenguaje de marcado — HTML es el más común, pero hay otros como SVG o XML.
+
+Presentar un documento a un usuario implica convertirlo en algo que este pueda utilizar. Navegadores (Browsers), como Firefox, Chrome o Internet Explorer, están diseñados para presentar documentos de forma visual, por ejemplo en una pantalla de ordenador, un proyector o una impresora.</td>
+  </tr>
+</table>
+<p><h2>¿Qué puedo hacer con CSS?</h2>
+CSS es un lenguaje de estilo que define la presentación de los documentos HTML. Por ejemplo, CSS abarca cuestiones relativas a fuentes, colores, márgenes, líneas, altura, anchura, imágenes de fondo, posicionamiento avanzado y muchos otros temas. ¡Espera unos segundos y ya verás!
+Es posible usar HTML, o incluso abusar del mismo, para añadir formato a los sitios web. Sin embargo, CSS ofrece más opciones y es más preciso y sofisticado. CSS está soportado por todos los navegadores hoy día.
+Después de unas cuantas lecciones de este tutorial serás capaz de crear tus propias hojas de estilo usando CSS para dar a tu sitio web un aspecto nuevo y genial.
+<h2>¿Qué diferencia hay entre CSS y HTML?</h2>
+HTML se usa para estructurar el contenido; CSS se usa para formatear el contenido previamente estructurado.
+Vale, suena un poco técnico y confuso... pero sigue leyendo; pronto todo tendrá sentido.
+Allá en los buenos tiempos en que Madonna era una "Virgen" y un tipo llamado Tim Berners Lee inventó el World Wide Web, el lenguaje HTML sólo se usaba para añadir estructura al texto. Los autores podían marcar sus textos diciendo "esto en un título" o "esto es un párrafo", usando las etiquetas HTML  &lt;h1&gt; y &lt;p&gt;, respectivamente.
+A medida que la Web fue ganando popularidad, los diseñadores empezaron a buscar posibilidades para añadir formato a los documentos en línea. Para satisfacer esta reclamación, los fabricantes de los navegadores (en ese momento, Netscape y Microsoft) inventaron nuevas etiquetas HTML, entre las que se encontraban, por ejemplo, &lt;font&gt;, que se diferenciaba de las etiquetas originales HTML en que definían el formato... y no la estructura.
+Esto también llevó a una situación en la que las etiquetas estructurales originales, por ejemplo, &lt;table&gt;, se usaban cada vez más de manera incorrecta para dar formato a las páginas en vez de para añadir estructura al texto. Muchas nuevas etiquetas que añadían formato, por ejemplo, &lt;blink&gt;, sólo las soportaban un tipo determinado de navegador. "Necesitas el navegador X para visualizar esta página" se convirtió en una declaración de descargo común en los sitios web.
+CSS se inventó para remediar esta situación, proporcionando a los diseñadores web con sofisticadas oportunidades de presentación soportadas por todos los navegadores. Al mismo tiempo, la separación de la presentación de los documentos del contenido de los mismos, hace que el mantenimiento del sitio sea mucho más fácil.
+<h2>¿Qué beneficios me ofrece CSS?</h2>
+CSS fue toda una revolución en el mundo del diseño web. Entre los beneficios concretos de CSS encontramos:
+control de la presentación de muchos documentos desde una única hoja de estilo;
+control más preciso de la presentación;
+aplicación de diferentes presentaciones a diferentes tipos de medios (pantalla, impresión, etc.);
+numerosas técnicas avanzadas y sofisticadas.</p>
+<h1>¿Cómo afecta CSS a un HTML?</h1>
+<table width="55%%" border="1">
+  <tr>
+    <td>Los navegadores Web, al aplicar las reglas CSS a un documento, modifican la manera en que este es presentado. Una regla CSS se compone de:
+
+Un conjunto de propiedades (properties), con valores establecidos para actualizar la presentación del contenido HTML, por ejemplo quiero que el ancho de un elemento sea el 50% de su elemento padre, y que su fondo sea rojo.
+Un selector, que seleccionará los elementos afectados por el nuevo valor de la propiedad. Por ejemplo, quiero que mi regla CSS afecte a todos los párrafos (p) de mi documento HTML.
+El conjunto de reglas CSS contenidas en el documento de estilos (stylesheet) afectará a la presentación de la página web. Profundizaremos en la sintaxis CSS en el siguiente artículo del módulo — Sintaxis CSS.</td>
+  </tr>
+</table>
+<h2>Un ejemplo rápido de CSS</h2>
+<p>Las definiciones anteriores pueden tener sentido o no, vamos a asegurarnos que quedan claras presentando un ejemplo rápido. Primero que nada, tomemos un documento sencillo en HTML que contiene un título y un párrafo <p> (observemos que el documento de estilos se aplicará a HTML utilizando un elemento desde la sección head):</p>
+<table width="55%%" border="1">
+  <tr>
+    <td><h1>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;My CSS experiment&lt;/title&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;p&gt;This is my first CSS example&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</h1></td>
+  </tr>
+</table>
+<h3>Ahora echemos un vistazo a un sencillo CSS con dos reglas:</h3>
+<table width="55%%" border="1">
+  <tr>
+    <td><h1>h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: red;
+}</h1></td>
+  </tr>
+</table>
+<p><h3>Ejemplo:</h3>
+<table width="400" border="1">
+  <tr>
+    <td>h2 {color: green;}
+h2 ---> es el selector
+{color: green;} ---> es la declaración 
+color ---> es la propiedad o atributo
+green ---> es el valor</td>
+  </tr>
+</table>
+<h4>Selector</h4>
+El Selector especifica que elementos HTML van a estar afectados por esa declaración, de manera que hace de enlace entre la estructura del documento y la regla estilística en la hoja de estilo.
+<h4>Declaración</h4>
+La Declaración que va entre corchetes es la información de estilo que indica cómo se va a ver el selector. En caso de que haya más de una declaración se usa punto y coma para separarlas.
+<h4>Propiedad o Atributo y Valor</h4>
+Dentro de la declaración, la Propiedad o Atributo define la interpretación del elemento asignándosele un cierto Valor, que puede ser color, alineación, tipo de fuente, tamaño..., es decir, especifican qué aspecto del selector se va a cambiar.
+<h4>Tres tipos de estilos</h4>
+La información CSS se puede proporcionar por varias fuentes, ya sea adjunto como un documento por separado o incorporado en el documento HTML, y dentro de estas posibilidades destacan tres formas de dar estilo a un documento web:
+<h4>Hoja de Estilo Externa</h4>
+La Hoja de Estilo Externa se almacena en un archivo diferente al del archivo con el código HTML al cal estar vinculado a través del elemento link, que debe ir situado en la sección head. Es la manera de programar ms eficiente, ya que separa completamente las reglas de formato para la página HTML de la estructura básica de la página.
+<h4>Hoja de Estilo Interna</h4>
+La Hoja de Estilo Interna est incorporada a un documento HTML, a través del elemento style dentro de la sección head, consiguiendo de esta manera separar la información del estilo del código HTML.
+<h4>Estilo en Línea</h4>
+El Estilo en Línea sirve para insertar el lenguaje de estilo directamente dentro de la sección body con el elemento style. Sin embargo, este tipo de estilo no se recomienda pues se debe intentar siempre separar el contenido de la presentación.
+<h4>Versiones CSS</h4>
+Existen varias versiones: CSS1 y CSS2, la CSS3 está todavía en desarrollo por el CSS WG (Cascading Style Sheets Working Group).
+Los navegadores actuales implementan bastante bien CSS1 desde 1999 (tres años después de su lanzamiento) aunque dependiendo de la marca y versión del navegador hay algunas pequeñas diferencias de implementación. El primer navegador en dar soporte completo al CSS1 ha sido Internet Explorer 5.0 for the Macintosh en 2000, anteriormente el que mejor soportaba CSS1 haba sido Opera, después otros navegadores también lo han ido implementando.
+Sin embargo, CSS2 (lanzado en 1998) sólo está parcialmente implementado en los navegadores más recientes, variando en estos los niveles de implementación.</p>
+
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>¿Qué es  Adobe DreamWeaver</h1>
+          </div>
+          <div data-role="content" align="center">
+          <p>Adobe Dreamweaver es una aplicación en forma de estudio (basada en la forma de estudio de Adobe Flash) enfocada a la construcción y edición de sitios y aplicaciones Web basados en estándares. Creado inicialmente por Macromedia (actualmente producido por Adobe Systems). Es el programa de este tipo más utilizado en el sector del diseño y la programación web, por sus funcionalidades, su integración con otras herramientas como Adobe Flash y, recientemente, por su soporte de los estándares del World Wide Web Consortium. Su principal competidor es Microsoft Expression Web y tiene soporte tanto para edición de imágenes como para animación a través de su integración con otras. Hasta la versión MX, fue duramente criticado por su escaso soporte de los estándares de la web, ya que el código que generaba era con frecuencia sólo válido para Internet Explorer, y no validaba como HTML estándar. Esto se ha ido corrigiendo en las versiones recientes.
+Adobe Dreamweaver permite crear sitios de forma totalmente gráfica, y dispone de funciones para acceder al código HTML generado. Permite la conexión a un servidor, a base de datos, soporte para programación en ASP, PHP, Javascript, cliente FTP integrado, etc.
+Adobe Dreamweaver es la principal competencia de Microsoft FrontPage.</p><div align="center"><img src="imagenes/dreaaaa.jpg"><table width="600" border="1">
+  <tr>
+    <td>Información general
+Desarrollador(es)
+Macromedia y Adobe Systems
+Lanzamiento inicial
+16 de abril de 2007(info)
+Última versión estable
+CC (2017 - 17.0.1)
+19 de diciembre de 2016 (1 año, 5 meses y 13 días)
+Género
+Editor de páginas web
+Programado en
+C++
+Sistema operativo
+Microsoft Windows, Mac
+Plataforma
+Microsoft Windows, Mac OS y macOS
+Tamaño
+345 MB
+Licencia
+Software Comercial
+En español
+Sí
+</td>
+  </tr>
+</table>
+</div><p>
+Adobe Dreamweaver es una aplicación en forma de suite (basada en la forma de estudio de Adobe Flash) que está destinada a la construcción, diseño y edición de sitios, videos y aplicaciones Web basados en estándares. Permiten agregar rápidamente diseño y funcionalidad a las páginas, sin la necesidad de programar manualmente el código HTML.
+Se puede crear tablas, editar marcos, trabajar con capas, insertar comportamientos JavaScript, etc., de una forma muy sencilla y visual. 
+Cuando utilizamos Dreamweaver para crear una página Web no tenemos que preocuparnos de todo esto. Dreamweaver inserta automáticamente las etiquetas necesarias para construir la página con la apariencia y contenido definidos en el editor gráfico.
+
+Ventajas:
+
+
+·         La gran ventaja de este editor sobre otros es su gran poder de ampliación y personalización del mismo, puesto que en este programa, sus rutinas (como la de insertar un hipervínculo, una imagen o añadir un comportamiento) están hechas en Javascript-C, lo que le ofrece una gran flexibilidad en estas materias.
+·         Como editor WYSIWYG que es, Dreamweaver permite ocultar el código HTML de cara al usuario, haciendo posible que alguien no entendido pueda crear páginas y sitios web fácilmente sin necesidad de escribir código.
+·         Un aspecto de alta consideración de Dreamweaver es su funcionalidad con extensiones. Es decir, permite el uso de "Extensiones". Las extensiones, tal y como se conocen, son pequeños programas, que cualquier desarrollador web puede escribir (normalmente en HTML y Javascript) y que cualquiera puede descargar e instalar, ofreciendo así funcionalidades añadidas a la aplicación.
+
+
+Adobe Dreamweaver te brindará acceso rápido a los mismos:
+- Entorno de desarrollo compatible con PHP, J2EE y Microsoft.NET
+- Diseño de páginas Webs con un interfaz completamente gráfico
+- Barra de herramientas de programación, que facilita las operaciones de programación más usuales
+- Contracción del código, para centrarse solo en el que se está utilizando
+- Barra de herramientas de reproducción de estilos, con la que se puede ver el resultado final
+- Comparar archivos para ver qué ha cambiado
+- Facilidad para añadir vídeos Flash
+- Notificación y registro de eventos
+- Se integra en Microsoft Word, Flash, Adobe Photoshop y otras
+- Optimiza las páginas para las diferentes versiones de los navegadores….
+
+Adobe Dreamweaver en la educación:
+
+Este programa le ayuda al estudiante a aprender a crear un sitio web, mejora su creatividad y su curiosidad por emplear todas las herramientas de este diseñador web, pero más que todo les sirve para poder diseñar su propio sitio web con todo lo que deseen ponerle. Quizás el profesor no les pueda enseñar a utilizar todas las herramientas de esta aplicación, pero internet es una gran ayuda, existen tutoriales donde enseñan a crear un sitio web y a utilizar las otras aplicaciones de Adobe que se pueden añadir a nuestro website.
+
+Características:
+
+
+: Ofrece la posibilidad de crear botones flash, formularios, JavaScripts, y más, es de gran ayuda. Además de poder insertar elementos web, encontramos una gran precisión en la importación de información de Word y Excel, con las funciones de copiar y pegar. 
+: Dreamweaver es conocido por ofrecer herramientas avanzadas en el desarrollo de sitios web, y si bien se trata del producto de mayores características del mercado, su uso está limitado a usuarios con experiencia, ya que de no ser así, uno se encuentra con la dificultad de no saber por dónde comenzar. 
+
+Desventajas
+Aunque muchos usuarios afirmen en los foros de DW que no tiene desventajas, tampoco se puede decir que Dreamweaver lo puede utilizar cualquiera, al ser tan avanzado el único inconveniente es que puede resultar difícil su manejo para usuarios menos experimentados en el diseño de páginas web, ya que quien lo utiliza tiene que tener un conocimiento básico de este programa.
+Bien entonces una vez que ya hemos analizado la definición, su características y sus ventajas ya tenemos una idea de lo que se trata Adobe Dreamweaver qué es lo que nos ofrece y en qué nos puede servir. Pues quizás los estudiantes no le veamos la importancia de utilizar este programa, a lo mejor no nos sirva ahora, pero cuando ya nos involucremos en el campo laboral ya sabremos cómo se utilizan los programas de Adobe, además con esta práctica ya tenemos una idea de lo que será nuestro website, ese es el objetivo de estudiar ese diseñador web</p>
+<ul data-role="controlgroup" data-type="horizontal" data-theme="a" lang="af">
+<div style="width:10%;">
+ <li class="ui-first-child ui-last-child  ui-table-columntoggle-popup">
+  <a href="http://www.adobe.com/es/products/dreamweaver" data-role="button" id="come">
+  <p> Página Oficial</p>
+  </a>
+  </li>
+  </ul>
+  <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>Ver ....</h1>
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/k1.jpg" alt="k1" title="k1" id="wows2_0"/></li>
+		<li><img src="data2/images/k2.jpg" alt="k2" title="k2" id="wows2_1"/></li>
+		<li><img src="data2/images/k3.png" alt="k3" title="k3" id="wows2_2"/></li>
+		<li><img src="data2/images/k4.jpg" alt="k4" title="k4" id="wows2_3"/></li>
+		<li><img src="data2/images/k5.jpg" alt="k5" title="k5" id="wows2_4"/></li>
+		<li><img src="data2/images/k6.jpg" alt="k6" title="k6" id="wows2_5"/></li>
+		<li><img src="data2/images/k7.jpg" alt="k7" title="k7" id="wows2_6"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/k8.jpg" alt="bootstrap slideshow" title="k8" id="wows2_7"/></a></li>
+		<li><img src="data2/images/k9.jpg" alt="k9" title="k9" id="wows2_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="k1"><span><img src="data2/tooltips/k1.jpg" alt="k1"/>1</span></a>
+		<a href="#" title="k2"><span><img src="data2/tooltips/k2.jpg" alt="k2"/>2</span></a>
+		<a href="#" title="k3"><span><img src="data2/tooltips/k3.png" alt="k3"/>3</span></a>
+		<a href="#" title="k4"><span><img src="data2/tooltips/k4.jpg" alt="k4"/>4</span></a>
+		<a href="#" title="k5"><span><img src="data2/tooltips/k5.jpg" alt="k5"/>5</span></a>
+		<a href="#" title="k6"><span><img src="data2/tooltips/k6.jpg" alt="k6"/>6</span></a>
+		<a href="#" title="k7"><span><img src="data2/tooltips/k7.jpg" alt="k7"/>7</span></a>
+		<a href="#" title="k8"><span><img src="data2/tooltips/k8.jpg" alt="k8"/>8</span></a>
+		<a href="#" title="k9"><span><img src="data2/tooltips/k9.jpg" alt="k9"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">javascript slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+            </div></div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div></div>
+    <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>¿Qué es wamp server?</h1>
+          </div>
+<div data-role="content" align="center"><p>1. QUE ES WAMP SERVERWampServer es un entorno de desarrollo web para Windows con el que podrás crearaplicaciones web con Apache, PHP y bases de datos MySQL database. Tambiénincluye PHPMyAdmin y SQLiteManager para manejar tus bases de datos en un plisplas.CARACTERISTICASProvee a los desarrolladores con los cuatro elementos necesarios para un servidorweb: un Sistema Operativo (Windows), un manejador de base de datos (MySQL), unsoftware para servidor web (Apache) y un software de programación script Web(PHP (generalmente), Python o PERL), debiendo su nombre a dichas herramientas.Lo mejor de todo es que WAMP5 es completamente gratuito. WAMP incluye, ademásde las últimas versiones de Apache, PHP y MySQL, versiones anteriores de lasmismas, para el caso de que se quiera testear en un entorno de desarrollo particular.UTILIDADEl uso de WAMP permite servir páginas HTML a Internet, además de poder gestionardatos en ellas, al mismo tiempo WAMP, proporciona lenguajes de programación paradesarrollar aplicaciones Web.REQUERIMIENTOS DE WAMP SERVER CON PHPServidor web con soporte a PHP y base de datos (MySQL o PostgreSQL)GNULinux: LAMPserver: Apache + PHP 5 + MySQL . Windous: WAMPserver:XAMPP o WOS1. Del lado del servidor : Apache (servidor de aplicaciones) PHP (lenguaje de programación web) WAMP SERVER MySql (Base de datos)2.Del lado del Cliente Navegador de Internet 
+2. LENGUAJES DE PROGRAMACIÓN HTML Javascript PHP ASP ASP.NET JSP Python RUBY APACHEINSTALACIÓN DEL SOFTWARE DE DESARROLLO: 1. Bajar la version 2.0. 2. Bajar wampserver. 3. Descomprimir el zip. 4. Instalar el wampserver y habilitar el php curl, este se lo habilita de php.in y se reinicia el servicio para que coja los cambios. 5. Y de ahi la carpeta comprimida se la coloca en la carpeta html, y listo a comfigurar se ha dicho. 
+3. PARA HACER LA CONFIGURACIÓN BÁSICA DEL SITIO WEB1. Haz clic en Inicio, selecciona Herramientas administrativas y, acontinuación, haz clic en Servicios de Internet Information Server (IIS).2. Expande *nombre del servidor (donde nombre del servidor es elnombre del servidor) y, a continuación, expande Sitios Web.3.Haz clic con el ratón derecho en Sitio Web predeterminado y, acontinuación, haz clic en Propiedades.4. Haz clic en la ficha Sitio Web. Si tienes varias direcciones IPasignadas al equipo, en el cuadro Dirección IP haz clic en la dirección IPque desees asignar a este sitio Web.5. Haz clic en la ficha Rendimiento. Utiliza el cuadro de diálogoPropiedades de sitio Web - Rendimiento para establecer propiedadesrelativas a memoria, uso del ancho de banda y número de conexionesWeb.Al configurar el ancho de banda de red de un sitio determinado, puedecontrolarse mejor la cantidad de tráfico que atraviesa el sitio. Porejemplo, si restringe el ancho de banda en un sitio Web de bajaprioridad, puede permitir que aumente el acceso a otros sitios. De formasimilar, cuando se especifica el número de conexiones a un sitio Web, seliberan recursos para otros sitios. La configuración es específica del sitioy debe ajustarse a medida que el tráfico de red y el uso cambien.Activa la casilla de verificación Limitar el ancho de banda de red totaldisponible para este sitio Web para configurar IIS de forma que regule elancho de banda de red con el ancho de banda máximo seleccionado, enkilobytes por segundo (KB/S). 
+4. FUNCIONALIDADES DE WAMPSERVERWampServer tiene funcionalidades que lo hacen muy completo y fácil de usar. Conun click izquierdo sobre el icono de WampServer, usted será capaz de: Gestionar sus servicios de Apache y MySQL, Cambiar de línea / fuera de línea (dar acceso a todos o sólo local) Instalar y cambiar de Apache, MySQL y PHP emisiones Gestión de la configuración de sus servidores Acceder a sus registros Acceder a sus archivos de configuración Crear aliasCon un clic derecho: WampServer cambiar el idioma del menú Acceder a la página principalHERRAMIENTAS PARA EL DISEÑO Y DESARROLLO DE PAGINAS WEB Windows, como sistema operativo; Apache, como servidor web; MySQL, como gestor de bases de datos; PHP (generalmente), Perl, o Python, como lenguajes de programación.</p>
+             <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>Links para más información</h1>
+    <ul>
+    <li><a href="http://www.trucoteca.com/trucoswindows/Windows2003Server/configuracion-basica-del-sitio-web-1041.html" target="_self">página1</a></li>
+     <li><a href="http://www.herramientasparapymes.com/wampserver-5" target="_self"> Página2</a></li>
+      <li><a href="http://es.wikipedia.org/wiki/WAMP" target="_self"> Página3</a></li>
+      <li><a href="http://www.youtube.com/watch?v=se9fUxCVjhU" target="_self"> Video1</a></li>
+      <li><a href="http://www.youtube.com/watch?v=pFr4GD8fuiU" target="_self"> Video2</a></li>
+      <li><a href="http://www.youtube.com/watch?v=aWwv-R7h36U" target="_self"> Video3</a></li>
+      <li><a href="http://www.youtube.com/watch?v=GsTq_iMCquQ" target="_self"> Video4</a></li></ul>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pe','','imagenes/wampserver2.png',1)"><img src="imagenes/wampserver1.png" width="70%" height="70%" id="pe"></a> </div>
+    </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div></div>
+    <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>¿Qué es Javascript?</h1>
+          </div>
+          <div data-role="content" align="center">
+          <h3>Javascript es un lenguaje de programación que permite a los desarrolladores crear acciones en sus páginas web. Pero ¿Qué es Javascript?, ¿Cómo nace Javascript?</h3>
+          <p>Javascript es un lenguaje que puede ser utilizado por profesionales y para quienes se inician en el desarrollo y diseño de sitios web. No requiere de compilación ya que el lenguaje funciona del lado del cliente, los navegadores son los encargados de interpretar estos códigos.
+Muchos confunden el Javascript con el Java pero ambos lenguajes son diferentes y tienes sus características singulares. Javascript tiene la ventaja de ser incorporado en cualquier página web, puede ser ejecutado sin la necesidad de instalar otro programa para ser visualizado. 
+Java por su parte tiene como principal característica ser un lenguaje independiente de la plataforma. Se puede crear todo tipo de programa que puede ser ejecutado en cualquier ordenador del mercado: Linux, Windows, Apple, etc. Debido a sus características también es muy utilizado para internet.
+Como síntesis se pude decir que Javascript es un lenguaje interpretado, basado en prototipos, mientras que Java es un lenguaje más orientado a objetos.
+¿Qué es Javascript?
+Javascript es un lenguaje con muchas posibilidades, utilizado para crear pequeños programas que luego son insertados en una página web y en programas más grandes, orientados a objetos mucho más complejos. Con Javascript podemos crear diferentes efectos e interactuar con nuestros usuarios. 
+Este lenguaje posee varias características, entre ellas podemos mencionar que es un lenguaje basado en acciones que posee menos restricciones. Además, es un lenguaje que utiliza Windows y sistemas X-Windows, gran parte de la programación en este lenguaje está centrada en describir objetos, escribir funciones que respondan a movimientos del mouse, aperturas, utilización de teclas, cargas de páginas entre otros.
+Es necesario resaltar que hay dos tipos de JavaScript: por un lado está el que se ejecuta en el cliente, este es el Javascript propiamente dicho, aunque técnicamente se denomina Navigator JavaScript. Pero también existe un Javascript que se ejecuta en el servidor, es más reciente y se denomina LiveWire Javascript. 
+¿Cómo nace Javascript?
+Javascript nació con la necesidad de permitir a los autores de sitio web crear páginas que permitan intercambiar con los usuarios, ya que se necesitaba crear webs de mayor complejidad. El HTML solo permitía crear páginas estáticas donde se podía mostrar textos con estilos, pero se necesitaba interactuar con los usuarios. 
+En los años de 1990, Netscape creo Livescript; las primeras versiones de este lenguaje fueron principalmente dedicadas a pequeños grupos de diseñadores Web que no necesitaban utilizar un compilador, o sin ninguna experiencia en la programación orientada a objetos. 
+A medida que estuvieron disponibles nuevas versiones de este lenguaje incluían nuevos componentes que dan gran potencial al lenguaje, pero lamentablemente esta versión solo funcionaba en la última versión del Navigator en aquel momento. 
+En diciembre de 1995, Netscape y Sun Microsystems (el creador del lenguaje Java) luego de unirse objetivo de desarrollar el proyecto en conjunto, reintroducen este lenguaje con el nombre de Javascript. En respuesta a la popularidad de Javascript, Microsoft lanzo su propio lenguaje de programación a base de script, VBScript (una pequeña versión de Visual Basic). 
+En el año de 1996 Microsoft se interesa por competir con Javascript por lo que lanza su lenguaje llamado Jscript, introducido en los navegadores de Internet Explorer. A pesar de las diferentes críticas que se le hacen al lenguaje Javascript, este es uno de los lenguajes de programación más populares para la web. Desde que los navegadores incluyen el Javascript, no necesitamos el Java Runtime Environment (JRE), para que se ejecute. 
+El Javascript es una tecnología que ha sobrevivido por más de 10 años, es fundamentales en la web, junto con la estandarización de la “European Computer Manufacturers Association” (ECMA) (adoptada luego por la ISO) y W3C DOM, Javascript es considerado por muchos desarrolladores web como la fundación para la próxima generación de aplicaciones web dinámicas del lado del cliente.
+La estandarización de Javascript comenzó en conjunto con ECMA en Noviembre de 1996. Es adoptado este estándar en Junio de 1997 y luego también por la “Internacional Organization for Standardization” (ISO). El DOM por sus siglas en inglés “Modelo de Objetos del Documento” fue diseñado para evitar incompatibilidades. 
+¿Dónde puedo ver funcionando Javascript?
+Entre los diferentes servicios que se encuentran realizados con Javascript en Internet se encuentran:
+Correo
+Chat
+Buscadores de Información
+También podemos encontrar o crear códigos para insertarlos en las páginas como: 
+Reloj
+Contadores de visitas
+Fechas
+Calculadoras
+Validadores de formularios
+Detectores de navegadores e idiomas
+¿Cómo identificar código Javascript?
+El código javascript podemos encontrarlo dentro de las etiquetas <body></body> de nuestras páginas web. Por lo general se insertan entre: <script></script>. También pueden estar ubicados en ficheros externos usando: 
+<script type="text/javascript" src="micodigo.js"></script>
+Algunas características del lenguaje son:
+Su sintaxis es similar a la usada en Java y C, al ser un lenguaje del lado del cliente este es interpretado por el navegador, no se necesita tener instalado ningún Framework. 
+Variables: var = “Hola”, n=103
+Condiciones: if(i<10){ … }
+Ciclos: for(i; i<10; i++){ … }
+Arreglos: var miArreglo = new Array(“12”, “77”, “5”)
+Funciones: Ppopias del lenguaje y predefinidas por los usuarios
+Comentarios para una sola línea: // Comentarios 
+Comentarios para varias lineas:
+/*
+Comentarios
+*/
+
+Permite la programación orientada a objetos: document.write("Hola"); 
+Las variables pueden ser definidas como: string, integer, flota, bolean simplemente utilizando “var”. Podemos usar “+” para concatenar cadenas y variables. 
+¿Es compatible con navegadores?
+Javascript es soportado por la mayoría de los navegadores como Internet Explorer, Netscape, Opera, Mozilla Firefox, entre otros. 
+Con el surgimiento de lenguajes como PHP del lado del servidor y Javascript del lado del cliente, surgió Ajax en acrónimo de (Asynchronous Javascript And XML). El mismo es una técnica para crear aplicaciones web interactivas. Este lenguaje combina varias tecnologías:
+HTML y Hojas de Estilos CSS para generar estilos.
+Implementaciones ECMAScript, uno de ellos es el lenguaje Javascript.
+XMLHttpRequest es una de las funciones más importantes que incluye, que permite intercambiar datos asincrónicamente con el servidor web, puede ser mediante PHP, ASP, entre otros.
+Debemos tener en cuenta que aunque Javascript sea soportado en gran cantidad de navegadores nuestros usuarios pueden elegir la opción de Activar/Desactivar el Javascript en los mismos. </p>
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>¿Qué es PHP?</h1>
+          </div>
+          <div data-role="content" align="center"><h3>Es un lenguaje para programar scripts del lado del servidor, que se incrustan dentro del código HTML. Este lenguaje es gratuito y multiplataforma. </h3><p> <div>PHP es el acrónimo de Hipertext Preprocesor. Es un lenguaje de programación del lado del servidor gratuito e independiente de plataforma, rápido, con una gran librería de funciones y mucha documentación.</div><div> 
+Un lenguaje del lado del servidor es aquel que se ejecuta en el servidor web, justo antes de que se envíe la página a través de Internet al cliente. Las páginas que se ejecutan en el servidor pueden realizar accesos a bases de datos, conexiones en red, y otras tareas para crear la página final que verá el cliente. El cliente solamente recibe una página con el código HTML resultante de la ejecución de la PHP. Como la página resultante contiene únicamente código HTML, es compatible con todos los navegadores. Podemos saber algo más sobre la programación del servidor y del cliente en el artículo qué es DHTML. </div>
+ <img src="imagenes/diagrama-php.gif">
+Una vez que ya conocemos el concepto de lenguaje de programación de scripts del lado del servidor podemos hablar de PHP. PHP se escribe dentro del código HTML, lo que lo hace realmente fácil de utilizar, al igual que ocurre con el popular ASP de Microsoft, pero con algunas ventajas como su gratuidad, independencia de plataforma, rapidez y seguridad. Cualquiera puede descargar a través de la página principal de PHP www.php.net y de manera gratuita, un módulo que hace que nuestro servidor web comprenda los scripts realizados en este lenguaje. Es independiente de plataforma, puesto que existe un módulo de PHP para casi cualquier servidor web. Esto hace que cualquier sistema pueda ser compatible con el lenguaje y significa una ventaja importante, ya que permite portar el sitio desarrollado en PHP de un sistema a otro sin prácticamente ningún trabajo. 
+PHP, en el caso de estar montado sobre un servidor Linux u Unix, es más rápido que ASP, dado que se ejecuta en un único espacio de memoria y esto evita las comunicaciones entre componentes COM que se realizan entre todas las tecnologías implicadas en una página ASP. 
+Por último señalábamos la seguridad, en este punto también es importante el hecho de que en muchas ocasiones PHP se encuentra instalado sobre servidores Unix o Linux, que son de sobra conocidos como más veloces y seguros que el sistema operativo donde se ejecuta las ASP, Windows NT o 2000. Además, PHP permite configurar el servidor de modo que se permita o rechacen diferentes usos, lo que puede hacer al lenguaje más o menos seguro dependiendo de las necesidades de cada cual. 
+Fue creado originalmente en 1994 por Rasmus Lerdorf, pero como PHP está desarrollado en política de código abierto, a lo largo de su historia ha tenido muchas contribuciones de otros desarrolladores. Actualmente PHP se encuentra en su versión 4, que utiliza el motor Zend, desarrollado con mayor meditación para cubrir las necesidades de las aplicaciones web actuales. 
+Este lenguaje de programación está preparado para realizar muchos tipos de aplicaciones web gracias a la extensa librería de funciones con la que está dotado. La librería de funciones cubre desde cálculos matemáticos complejos hasta tratamiento de conexiones de red, por poner dos ejemplos. 
+Algunas de las más importantes capacidades de PHP son: compatibilidad con las bases de datos más comunes, como MySQL, mSQL, Oracle, Informix, y ODBC, por ejemplo. Incluye funciones para el envío de correo electrónico, upload de archivos, crear dinámicamente en el servidor imágenes en formato GIF, incluso animadas y una lista interminable de utilidades adicionales. 
+Se puede obtener mucha más información de PHP en los diversos manuales de PHP que hemos publicado en desarrolloweb. Manuales que atienden a los diversos niveles de cada programdor: 
+Programación en PHP: Aprende PHP desde el principio con este manual que toca las prestaciones más imprescindibles.
+Programación en PHP II: Aprende a hacer una aplicación práctica en PHP. Un sistema de postales.
+Taller de PHP: otros artículos prácticos más avanzados con el lenguaje.</p>
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div></div>
+    <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>MySQL</h1>
+          </div>
+          <div data-role="content" align="center">
+          <img src="imagenes/mysql.jpg" width="30%" height="30%">
+          <table width="800" border="1">
+  <tr>
+    <td>
+MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base datos de código abierto más popular del mundo,1​2​ y una de las más populares en general junto a Oracle y Microsoft SQL Server, sobre todo para entornos de desarrollo web.
+MySQL fue inicialmente desarrollado por MySQL AB (empresa fundada por David Axmark, Allan Larsson y Michael Widenius). MySQL AB fue adquirida por Sun Microsystems en 2008, y ésta a su vez fue comprada por Oracle Corporation en 2010, la cual ya era dueña desde 2005 de Innobase Oy, empresa finlandesa desarrolladora del motor InnoDB para MySQL.
+Al contrario de proyectos como Apache, donde el software es desarrollado por una comunidad pública y los derechos de autor del código están en poder del autor individual, MySQL es patrocinado por una empresa privada, que posee el copyright de la mayor parte del código. Esto es lo que posibilita el esquema de doble licenciamiento anteriormente mencionado. La base de datos se distribuye en varias versiones, una Community, distribuida bajo la Licencia pública general de GNU, versión 2, y varias versiones Enterprise, para aquellas empresas que quieran incorporarlo en productos privativos. Las versiones Enterprise incluyen productos o servicios adicionales tales como herramientas de monitorización y asistencia técnica oficial. En 2009 se creó un fork denominado MariaDB por algunos desarrolladores (incluido algunos desarrolladores originales de MySQL) descontentos con el modelo de desarrollo y el hecho de que una misma empresa controle a la vez los productos MySQL y Oracle Database.3​
+Está desarrollado en su mayor parte en ANSI C y C++.4​ Tradicionalmente se considera uno de los cuatro componentes de la pila de desarrollo LAMP y WAMP.
+MySQL es usado por muchos sitios web grandes y populares, como Wikipedia,5​ Google6​7​ (aunque no para búsquedas), Facebook,8​9​10​ Twitter,11​ Flickr,12​ y YouTube.13</td>
+  </tr>
+</table>
+<table width="800" border="1">
+  <tr>
+    <td><h2>Lenguajes de programación</h2>
+Existen varias interfaces de programación de aplicaciones que permiten, a aplicaciones escritas en diversos lenguajes de programación, acceder a las bases de datos MySQL, incluyendo C, C++, C#, Pascal, Delphi (vía dbExpress), Eiffel, Smalltalk, Java (con una implementación nativa del driver de Java), Lisp, Perl, PHP, Python, Ruby, Gambas, REALbasic (Mac y Linux), (x)Harbour (Eagle1), FreeBASIC, y Tcl; cada uno de estos utiliza una interfaz de programación de aplicaciones específica. También existe una interfaz ODBC, llamado MyODBC que permite a cualquier lenguaje de programación que soporte ODBC comunicarse con las bases de datos MySQL. También se puede acceder desde el sistema SAP, lenguaje ABAP.
+<h2>Aplicaciones</h2>
+MySQL es muy utilizado en aplicaciones web, como Joomla, Wordpress, Drupal o phpBB, en plataformas (Linux/Windows-Apache-MySQL-PHP/Perl/Python), y por herramientas de seguimiento de errores como Bugzilla. Su popularidad como aplicación web está muy ligada a PHP, que a menudo aparece en combinación con MySQL.
+MySQL es una base de datos muy rápida en la lectura cuando utiliza el motor no transaccional MyISAM, pero puede provocar problemas de integridad en entornos de alta concurrencia en la modificación. En aplicaciones web hay baja concurrencia en la modificación de datos y en cambio el entorno es intensivo en lectura de datos, lo que hace a MySQL ideal para este tipo de aplicaciones. Sea cual sea el entorno en el que va a utilizar MySQL, es importante monitorizar de antemano el rendimiento para detectar y corregir errores tanto de SQL como de programación
+<h2>Versiones de MySQL</h2><img src="imagenes/versionessss.png"></td>
+  </tr>
+</table>
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4>App10 Clarissa Sánchez Victoria</h4>
+   <img src="res/android/mdpi2.png" width="56" height="46">
+    </div>
+    </div>
+    </ul>
+    </body>
+</html>

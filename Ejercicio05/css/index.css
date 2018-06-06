@@ -1,0 +1,32 @@
+﻿h1
+ {
+  text-align: center;
+ }
+h2
+ {
+ display: inline-block;
+ border-width: 1px;
+ border-style: solid;
+ border-color: pink;
+ }
+div
+ {
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+ }
+hr
+ {
+  width: 300px;
+  margin: 10px auto;
+ }
+p
+ {
+ width: 50%;
+ text-align: right;
+ margin: 10px auto;
+ border: 1px solid green;
+ }

@@ -1,0 +1,59 @@
+﻿
+<!DOCTYPEhtml>
+
+<html lang = "es">
+ <h1 id"arriba"> Biografia de Clarissa Sánchez Victoria  </h1>
+ <head>
+ <title> Biografia de Clarissa Sánchez Victoria </title>
+ </head>
+ <body>
+ <hr>
+ <h2> Datos Generales </h2>
+ <ul>
+  <li> Nombre: Clarissa Sánchez Victoria</li>
+  <li> Edad: 17 años </li>
+  <li> Estatura: 1.53 </li>
+  <li> Peso: 51kg  </li>
+ </ul>
+ <hr>
+ <h2> Domicilio </h2>
+ <table border="7px">
+ <tr>
+  <th> Direccion </th>
+  <td> Prolongación 5 noorte #28 </td>
+ </tr>
+ <tr>
+  <th> Telefono </th>
+  <td> 2441029501 </td>
+ </tr>
+ <tr>
+  <th> Cp </th>
+  <td> 74360</td>
+ </tr>
+</table>
+  <hr>
+  <h2> Acerca de mi </h2>
+  <p> Me gusta ver monitos chinos, escuchar chinos y todo lo que tenga que ver con chinos xD, tambien estudio en el CBTIS16</P>
+  <hr>
+  <h2> Micomida favorita es:</h2>
+  <p> MI comida favotita es la pizza, aunque no la como mucho </p>
+  <div style="border: 1px solid red;">
+   <img src="Imagenes/pizza de doncangrejo.jpg" width= "200px">
+   <img src="Imagenes/pizza.jpg" width= "200px">
+  <br>
+    <img src="Imagenes/pizza x4.jpg" width= "200px">
+   <img src="Imagenes/pizza x5.jpg" width= "200px">
+  </div>
+ <hr>
+ <h2> Contacto </h2>
+  <p> Vistita mi pagina de facebook, <a href="http://www.facebook.com/Julia Liliana Ramirez Casquera">Click</a></p>
+ <hr>
+ <h2> Etiquetas utilizadas </h2>
+  <pre>
+    h1, h2, tr, td, br, img, body, html, table, th, p, hr, a, title, DocTYPE html
+ <hr>
+  <a href= "#arriba"> ir a inicio </a>
+  </pre>
+</body>
+</html>
+ 

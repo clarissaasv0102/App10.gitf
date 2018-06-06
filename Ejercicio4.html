@@ -1,0 +1,90 @@
+﻿<DOCTYPE html>
+ <head>
+  <title>Ejercicio 04</title>
+ </head>
+ <body>
+  <h1>Encuesta<h1>
+<h2> Datos Generales</h2>
+  <form method="get" action="procesar.php">
+   <label for=“txtnombre”>Nombre:</label>
+   <input type="text" value="" name="txtnombre" id= "txtnombre">
+<br>
+   <label for="cmbfechanac">
+     Fecha de Nacimiento
+   </label>
+  <input type ="date" id ="cmbfechanac" name="cmbfechanac">
+<br>
+   <label for "txtedad"> 
+    Edad:
+   </labe>
+  <input type="number" id= "txtedad" name= "txtedad" value ="1"min="1" >
+<br>
+   <label for="txtelefeno"> 
+   Télefono:
+   </label>
+  <input type ="tel" id="txttelefono" name="txttelefono" pattern="[0-9] [10]">
+<br>
+   <label for= "txtcorreo" >
+   Correo Electronico:
+   </label>
+   <input type="mail" id="txtcorreo" name= "txtcorreo" placeholder ="nombre@ejemplo.com">
+<br>
+   <label for= "cmbcolor">
+   Color Preferido:
+   </label>
+   <input type="color" id="cmbcolor" name="cmbcolor">
+ </form>
+<hr>
+<h2> Gustos de Comida </h2>
+ <p> Selecciona la opción de tu preferencia: </p>
+ <div>
+  <input type="radio" id="rbpicanteop1" value="1" name="rbpicanteop">
+  <label  for ="rbpicanteop1">
+   Chile del que no pica
+  </label>
+<br>
+  <input type="radio" id="rbpicanteop2" value="2" name="rbpicanteop">
+   <label for= "rbpicanteop2">
+   Chile del que si pica
+   </label>
+<br>
+  <input type="radio" id="rbpicanteop3" value="3" name="rbpicanteop">
+   <label for = "rbpicanteop3" Checked>
+    Sin Chile
+   </label>
+ </div>
+<hr>
+ <fieldset>
+  <legend>Movilidad </legend>
+   <input type="checkbox" id="cbmovilidad1" name="cbmovilidad" value="bici">
+   <label for="cbmovilidad1"> Tengo bicicleta</label>
+<br>
+   <input type="checkbox" id="cbmovilidad2" name="cbmovilidad" value="moto">
+   <label for="cbmovilidad2">Tengo motocicleta</label>
+<br>
+   <input type="checkbox" id="cbmovilidad3" name="cbmovilidad" value="auto">
+   <label for="cbmovilidad3">Tengo automovil</label>
+ </fieldset>
+<hr>
+ <p>Lugar preferido para vacionar</p>
+<select name="vacacionar">
+  <option value="1"> Playa </option>
+  <option value="2" selected> Bosque </option>
+  <option value="3"> Ciudad</option>
+</select>
+ <p>Mis mejores vacaciones</p>
+ <textarea name="comentario" rows="10" cols="50" spellchecked ="true">
+ Comenta Aqui
+ </textarea>
+<input type="hidden" id="clave" name="clave" value="123POI">
+<br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Cancelar">
+ </body>
+
+
+
+
+
+
+</html>
