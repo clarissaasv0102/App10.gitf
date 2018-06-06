@@ -1,7 +1,7 @@
 // JavaScript Document
 $(document).ready(function(e){
 	document.addEventListener("deviceready",function(){
-		$('#come').tap(function(){
+		$('#cua').tap(function(){
 			navigator.notification.vibrate(100);
 		}); 
 		$('#come').on('click',function(){
